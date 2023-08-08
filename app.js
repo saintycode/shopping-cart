@@ -66,7 +66,7 @@ function renderProducts() {
                     </div>
                     <div class = "row1">
                         <div class="wishlist row1Child">
-                           <a href=""> <img src= "C\:Users\saint\Pictures\img\heartveg.jpg” alt=”heartveg”img alt="add to wish list"></a>                       
+                           <a href=""> <img src= "C\:Users\saint\Pictures\img\heartveg.jpg” alt="add to wish list"></a>                       
                        </div>
                            <div class="add-to-cart row1Child tooltip" onclick="addToCart(${product.id})" >
                             <a href=""><i class="fa fa-shopping-cart" style="font-size:48px;color:red"></i></a>
