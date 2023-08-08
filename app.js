@@ -7,7 +7,7 @@ const products = [
     price: 0.5,
     instock: 20,
     description: "juicey orange",
-    imgSrc: "./img/",
+    imgSrc: "<img src=”C:\Users\saint\Pictures\img\heartveg.jpg” alt=”heartveg”></img>",
   },
   {
     id: 1,
@@ -15,7 +15,7 @@ const products = [
     price: 5,
     instock: 99,
     description: "whole melon",
-    imgSrc: "./img/",
+    imgSrc: "<img src=”C:\Users\saint\Pictures\img\heartveg.jpg” alt=”heartveg”></img>",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const products = [
     price: 0.75,
     instock: 19,
     description: "conference pear",
-    imgSrc: "./img/",
+    imgSrc: "<img src=”C:\Users\saint\Pictures\img\heartveg.jpg” alt=”heartveg”></img>",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const products = [
     price: 0.1,
     instock: 100,
     description: "organic carrot",
-    imgSrc: "./img/",
+    imgSrc: "<img src=”C:\Users\saint\Pictures\img\heartveg.jpg” alt=”heartveg”></img>"
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const products = [
     price: 10,
     instock: 4,
     description: "mixture of wonkey fruit and veg, items vary",
-    imgSrc: "./img/",
+    imgSrc: "<img src=”C:\Users\saint\Pictures\img\heartveg.jpg” alt=”heartveg”></img>",
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const products = [
     price: 2,
     instock: 40,
     description: "seasonal potatos",
-    imgSrc: "./img/",
+    imgSrc: "<img src=”C:\Users\saint\Pictures\img\heartveg.jpg” alt=”heartveg”></img>",
   },
 ];
 
