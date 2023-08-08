@@ -7,7 +7,6 @@ const products = [
     price: 0.5,
     instock: 20,
     description: "juicey orange",
-    imgSrc: "<img src=”C:\Users\saint\Pictures\img\heartveg.jpg” alt=”heartveg”></img>",
   },
   {
     id: 1,
@@ -15,7 +14,6 @@ const products = [
     price: 5,
     instock: 99,
     description: "whole melon",
-    imgSrc: "<img src=”C:\Users\saint\Pictures\img\heartveg.jpg” alt=”heartveg”></img>",
   },
   {
     id: 2,
@@ -23,7 +21,6 @@ const products = [
     price: 0.75,
     instock: 19,
     description: "conference pear",
-    imgSrc: "<img src=”C:\Users\saint\Pictures\img\heartveg.jpg” alt=”heartveg”></img>",
   },
   {
     id: 3,
@@ -31,7 +28,6 @@ const products = [
     price: 0.1,
     instock: 100,
     description: "organic carrot",
-    imgSrc: "<img src=”C:\Users\saint\Pictures\img\heartveg.jpg” alt=”heartveg”></img>"
   },
   {
     id: 4,
@@ -39,7 +35,6 @@ const products = [
     price: 10,
     instock: 4,
     description: "mixture of wonkey fruit and veg, items vary",
-    imgSrc: "<img src=”C:\Users\saint\Pictures\img\heartveg.jpg” alt=”heartveg”></img>",
   },
   {
     id: 5,
@@ -47,7 +42,6 @@ const products = [
     price: 2,
     instock: 40,
     description: "seasonal potatos",
-    imgSrc: "<img src=”C:\Users\saint\Pictures\img\heartveg.jpg” alt=”heartveg”></img>",
   },
 ];
 
@@ -72,7 +66,7 @@ function renderProducts() {
                     </div>
                     <div class = "row1">
                         <div class="wishlist row1Child">
-                           <a href=""> <img src="./img/heart.png" alt="add to wish list"></a>                       
+                           <a href=""> <img src= "C\:Users\saint\Pictures\img\heartveg.jpg” alt=”heartveg”img alt="add to wish list"></a>                       
                        </div>
                            <div class="add-to-cart row1Child tooltip" onclick="addToCart(${product.id})" >
                             <a href=""><i class="fa fa-shopping-cart" style="font-size:48px;color:red"></i></a>
